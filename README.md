@@ -20,7 +20,7 @@ AI agents with access to your systems need security boundaries. This framework i
 1. **Identity Management** → "Who are you?"
    Every AI agent gets unforgeable credentials.
 
-2. **Behavioral Monitoring** → "What are you doing?"  
+2. **Behavioral Monitoring** → "What are you doing?"
    AI watches AI for abnormal patterns.
 
 3. **Data Governance** → "What are you eating? What are you serving?"
