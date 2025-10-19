@@ -40,8 +40,8 @@ See the [full specification](./SPECIFICATION.md) for detailed requirements.
 🔨 **Reference Implementation**: In development for our platforms
 
 The ATF specification is open for feedback and discussion. The reference implementation is being built for:
-- 🚀 [Your First Agent](https://yourfirstagent.ai) - See ATF principles in action
-- ☁️ [ZeroTrustAgents](https://zerotrustagents.ai) - Production ATF implementation
+- 🚀 ***COMING SOON:*** [Your First Agent](https://yourfirstagent.ai) - See ATF principles in action
+- ☁️ ***COMING SOON:*** [ZeroTrustAgents](https://zerotrustagents.ai) - Production ATF implementation
 
 ## Quick Example
 
@@ -64,8 +64,8 @@ class MyAgent:
 
 If you're looking to **use** secure AI agents:
 - Read the [book](https://www.amazon.com/dp/B0FL2WJQVQ) for the theory
-- Try [Your First Agent](https://yourfirstagent.ai) for hands-on experience
-- Host on [ZeroTrustAgents](https://zerotrustagents.ai) for production
+- Try [Your First Agent](https://yourfirstagent.ai) for hands-on experience (***COMING SOON:***)
+- Host on [ZeroTrustAgents](https://zerotrustagents.ai) for production (***COMING SOON:***)
 
 ## For Implementers
 
