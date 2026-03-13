@@ -1,8 +1,8 @@
 # ATF Agent Maturity Model
 
-The metrics and timeframes below are illustrative. Organizations should calibrate thresholds based on regulatory context, risk tolerance, and domain criticality.
-
 The Agentic Trust Framework uses a progressive maturity model that matches agent autonomy to demonstrated trustworthiness. Agents don't automatically receive higher autonomy levels; they earn promotion through performance, security validation, and business value delivery.
+
+The metrics and timeframes below are illustrative. Organizations should calibrate thresholds based on regulatory context, risk tolerance, and domain criticality.
 
 This model aligns with the [AWS Agentic AI Security Scoping Matrix](https://aws.amazon.com/blogs/security/agentic-ai-security-scoping-matrix/), providing enterprise security alignment.
 
@@ -104,7 +104,7 @@ This model aligns with the [AWS Agentic AI Security Scoping Matrix](https://aws.
 
 ### Minimum Time at Level
 
-**4 weeks** of operation with **Sustained high acceptance rates (e.g., 95%+ over a statistically meaningful evaluation period)** before promotion eligibility.
+**4 weeks** of operation with **>95% recommendation acceptance rate** before promotion eligibility.
 
 ---
 
@@ -182,8 +182,8 @@ This model aligns with the [AWS Agentic AI Security Scoping Matrix](https://aws.
 
 ### Use Cases
 
+- Algorithmic trading within risk parameters
 - Autonomous security incident response
-- Routine IAM requests within bounded policy
 - Complex supply chain optimization
 - Self-healing infrastructure management
 - Multi-system business process automation
@@ -348,7 +348,7 @@ Agents can be demoted at any time if they fail to maintain standards.
 ### Before Promoting to Senior
 
 - [ ] 4+ weeks at Junior level
-- [ ] Sustained high acceptance rates (e.g., 95%+ over a statistically meaningful evaluation period)
+- [ ] >95% recommendation acceptance
 - [ ] Behavioral baseline established
 - [ ] Anomaly detection configured
 - [ ] Notification channels configured
@@ -372,7 +372,7 @@ Agents can be demoted at any time if they fail to maintain standards.
 ## Related Documents
 
 - [SPECIFICATION.md](SPECIFICATION.md) - Core framework specification
-- [IMPLEMENTATION_GUIDE.md](IMPLEMENTATION_GUIDE.md) - Technical implementation guidance
+- [IMPLEMENTATION_PATTERNS.md](IMPLEMENTATION_PATTERNS.md) - Implementation patterns and guidance
 - [CONTRIBUTIONS.md](CONTRIBUTIONS.md) - How to contribute
 
 ---
