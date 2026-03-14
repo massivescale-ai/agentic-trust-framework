@@ -28,7 +28,7 @@ See the [full specification](./SPECIFICATION.md) for detailed requirements, comp
 
 ## Agent Maturity Model
 
-Agents earn autonomy through demonstrated trustworthiness — and can be demoted. Four levels aligned to the [AWS Agentic AI Security Scoping Matrix](https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-security-scoping-matrix/overview.html):
+Agents earn autonomy through demonstrated trustworthiness — and can be demoted. Four levels that [map cleanly to AWS's Scoping Matrix](https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-security-scoping-matrix/overview.html) (Nov 2025):
 
 | Level | Autonomy | Human Involvement | Example |
 |-------|----------|-------------------|---------|
@@ -57,7 +57,7 @@ ATF is complementary to existing security and governance frameworks:
 | **MAESTRO** (CSA) | Threat modeling for agentic AI (7 layers) | ATF implements the security architecture that MAESTRO's threat model identifies |
 | **OWASP Top 10 for Agentic Apps** | Risk identification (ASI-01 through ASI-10) | ATF's five elements provide controls that address all 10 risks |
 | **NIST AI RMF / 800-207** | Broad AI risk + Zero Trust architecture | ATF operationalizes Zero Trust specifically for agent governance |
-| **AWS Agentic AI Security Scoping** | Autonomy classification (Scopes 1-4) | ATF's maturity levels align directly to AWS scopes |
+| **AWS Agentic AI Security Scoping** | Autonomy classification (Scopes 1-4) | AWS scopes map to ATF's maturity levels |
 | **OWASP AEGIS** | AI governance and ethical guardrails | Complementary scope; ATF focuses on runtime enforcement |
 
 ## Getting Started
