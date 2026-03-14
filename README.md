@@ -94,7 +94,7 @@ We welcome contributions to the specification:
 
 ## Background
 
-ATF grew out of research into applying Zero Trust architecture to autonomous AI systems. The theoretical foundations are detailed in [*Agentic AI + Zero Trust: A Guide for Business Leaders*](https://www.amazon.com/dp/B0FL2WJQVQ) (2025), with the specification developed through CSA working group collaboration.
+ATF grew out of research into applying Zero Trust architecture to autonomous AI systems. The theoretical foundations are detailed in [*Agentic AI + Zero Trust: A Guide for Business Leaders*](https://www.amazon.com/dp/B0FL2WJQVQ) (2025). A comprehensive overview was [published via the Cloud Security Alliance](https://cloudsecurityalliance.org/blog/2026/02/02/the-agentic-trust-framework-zero-trust-governance-for-ai-agents) in February 2026.
 
 ## License
 
