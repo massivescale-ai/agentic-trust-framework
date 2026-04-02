@@ -1,9 +1,9 @@
 # ATF Conformance Specification
 
-**Version:** 0.1-draft
-**Status:** Community Review
+**Version:** 0.9.0
+**Status:** Public Review Draft
 **License:** CC BY 4.0
-**Last Updated:** March 18, 2026
+**Last Updated:** April 2026
 
 ## Purpose
 
@@ -92,7 +92,7 @@ Organizations claiming ATF Compatible status should publish a statement in the f
 ```
 Organization: [Name]
 Implementation: [Product/System Name]
-ATF Version: 0.1.0-draft
+ATF Version: 0.9.0
 Target Maturity Level: [Intern | Junior | Senior | Principal]
 Assessment Date: [Date]
 

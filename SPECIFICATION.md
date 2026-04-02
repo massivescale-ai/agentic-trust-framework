@@ -1,8 +1,8 @@
 # Agentic Trust Framework Specification
 
-**Version**: 0.1.0-draft  
-**Status**: Draft  
-**Last Updated**: Aug 9, 2025
+**Version**: 0.9.0
+**Status**: Public Review Draft
+**Last Updated**: April 2026
 
 ## Abstract
 
@@ -221,6 +221,13 @@ All security-relevant events MUST be logged including:
 
 - [RFC 2119] Key words for use in RFCs to Indicate Requirement Levels
 - [NIST 800-207] Zero Trust Architecture
+- [NIST AI RMF] AI Risk Management Framework
+- [CSA AICM] AI Controls Matrix (243 controls, 18 domains)
+- [CSA MAESTRO] Multi-Agent Environment Security Threat and Risk Operations
+- [OWASP Top 10 for Agentic Applications] Security risks for agentic AI
+- [ISO/IEC 42001:2023] AI Management System Standard
+- [ISO/IEC 27001:2022] Information Security Management Systems
+- [AWS Agentic AI Security Scoping Matrix] Agent scope classification (Scopes 1-4)
 - "Agentic AI + Zero Trust: A Guide for Business Leaders" by Josh Woodruff
 
 ---
