@@ -194,6 +194,7 @@ MUST, SHOULD, and MAY follow [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) de
 | Version | Date | Changes |
 |---------|------|---------|
 | 0.1-draft | 2026-03-18 | Initial community review release |
+| 0.9.0 | 2026-04-01 | Version aligned with specification release; conformance statement template updated |
 
 ---
 
