@@ -50,10 +50,12 @@ The specification has been published through the Cloud Security Alliance, indepe
 
 ## Ecosystem Adoption
 
-ATF has been independently implemented by organizations building against the specification without coordination:
+Organizations are building against the ATF specification independently. See [ECOSYSTEM.md](ECOSYSTEM.md) for detailed entries.
 
-- **Microsoft Agent Governance Toolkit**: Seven-package MIT-licensed open-source project officially launched April 2, 2026. SDKs for Python, TypeScript, Rust, Go, and .NET. Architecture independently validates all five ATF core elements. [GitHub](https://github.com/microsoft/agent-governance-toolkit) | [Launch announcement](https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/)
-- **Berlin AI Labs**: Reference implementation with 12 deployed services across all five core elements ([PR #1](https://github.com/massivescale-ai/agentic-trust-framework/pull/1))
+| Project | Organization | Relationship | ATF Coverage | Repository |
+|---|---|---|---|---|
+| Agent Governance Toolkit | Microsoft | Independent convergence | All 5 elements | [GitHub](https://github.com/microsoft/agent-governance-toolkit) |
+| VERA | Berlin AI Labs | Built on ATF principles | All 5 elements + maturity model | [GitHub](https://github.com/yogami/vera-reference-implementation) |
 
 ### Community Engagement
 
