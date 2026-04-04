@@ -2,7 +2,7 @@
 
 **Zero Trust Governance for Autonomous AI Agents**
 
-[![Specification Version](https://img.shields.io/badge/spec-v0.9.0-blue.svg)](./SPECIFICATION.md)
+[![Specification Version](https://img.shields.io/badge/spec-v0.9.1-blue.svg)](./SPECIFICATION.md)
 [![License: CC BY 4.0](https://img.shields.io/badge/spec_license-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![License: Apache 2.0](https://img.shields.io/badge/repo_license-Apache%202.0-blue.svg)](LICENSE)
 [![CSA Published](https://img.shields.io/badge/CSA-Published-green.svg)](https://cloudsecurityalliance.org/blog/2026/02/02/the-agentic-trust-framework-zero-trust-governance-for-ai-agents)
@@ -44,7 +44,7 @@ See [MATURITY_MODEL.md](MATURITY_MODEL.md) for promotion gates, demotion criteri
 
 ## Status
 
-**Specification**: v0.9.0 (Public Review Draft, April 2026)
+**Specification**: v0.9.1 (Public Review Draft, April 2026)
 
 The specification has been published through the Cloud Security Alliance, independently implemented by multiple organizations, and is approaching v1.0.
 
@@ -52,7 +52,7 @@ The specification has been published through the Cloud Security Alliance, indepe
 
 ATF has been independently implemented by organizations building against the specification without coordination:
 
-- **Microsoft Agent Governance Toolkit**: MIT-licensed Python middleware implementing all five ATF elements, now in the official `microsoft/` GitHub organization with a formal [CSA-ATF proposal](https://github.com/microsoft/agent-governance-toolkit/blob/main/CSA-ATF-PROPOSAL.md)
+- **Microsoft Agent Governance Toolkit**: Seven-package MIT-licensed open-source project officially launched April 2, 2026. SDKs for Python, TypeScript, Rust, Go, and .NET. Architecture independently validates all five ATF core elements. [GitHub](https://github.com/microsoft/agent-governance-toolkit) | [Launch announcement](https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/)
 - **Berlin AI Labs**: Reference implementation with 12 deployed services across all five core elements ([PR #1](https://github.com/massivescale-ai/agentic-trust-framework/pull/1))
 
 ### Community Engagement

@@ -4,6 +4,18 @@ All notable changes to the Agentic Trust Framework specification are documented 
 
 This project follows [Semantic Versioning](https://semver.org/).
 
+## [0.9.1] - 2026-04-03
+
+### Improved
+
+- **SPECIFICATION.md**: Added cross-references to CONFORMANCE.md requirement IDs (I-1 through R-5) in each core element section, connecting the detailed implementation guidance to the 25 canonical requirements
+- **SPECIFICATION.md**: Updated Section 3 (Conformance Requirements) to reference CONFORMANCE.md as the authoritative source for the 25 core requirements and maturity level applicability matrix
+- **README.md**: Updated Microsoft Agent Governance Toolkit description to reflect the official open-source launch (April 2, 2026): seven packages, five language SDKs, MIT license
+
+### Removed
+
+- **SPECIFICATION.md**: Removed reference to non-existent "ATF compliance test suite" in Section 3 (conformance is assessed against CONFORMANCE.md requirements)
+
 ## [0.9.0] - 2026-04-01
 
 ### Status: Public Review Draft

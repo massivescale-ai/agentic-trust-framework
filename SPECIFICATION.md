@@ -1,6 +1,6 @@
 # Agentic Trust Framework Specification
 
-**Version**: 0.9.0
+**Version**: 0.9.1
 **Status**: Public Review Draft
 **Last Updated**: April 2026
 
@@ -44,19 +44,30 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ## 3. Conformance Requirements
 
+ATF defines 25 core requirements (5 per element), enumerated with formal requirement IDs in [CONFORMANCE.md](CONFORMANCE.md). The requirement IDs (I-1 through I-5, B-1 through B-5, D-1 through D-5, S-1 through S-5, R-1 through R-5) are the canonical identifiers used for conformance assessment.
+
 An implementation is considered ATF-compliant if it:
 
-1. Implements all five core elements defined in Section 4
-2. Passes the ATF compliance test suite
-3. Follows the security considerations in Section 5
+1. Addresses the 25 core requirements defined in [CONFORMANCE.md](CONFORMANCE.md) at the level appropriate to the target maturity level (Intern, Junior, Senior, or Principal)
+2. Follows the security considerations in Section 5
 
 Implementations MAY extend ATF with additional features but MUST NOT violate core requirements.
+
+The detailed guidance in Section 4 below provides implementation context for each core element. Section 4 expands on the 25 core requirements with specific MUST, SHOULD, and MAY statements that describe how conforming implementations typically address each element. These statements are normative but allow flexibility in implementation approach.
+
+See [CONFORMANCE.md](CONFORMANCE.md) for:
+- The complete list of 25 core requirements with formal IDs
+- Two conformance tiers (ATF Compatible and ATF Certified)
+- A maturity level requirements matrix showing MUST/SHOULD/MAY by agent level
+- A conformance statement template
 
 ## 4. Core Elements
 
 ### 4.1 Identity Management
 
 **Requirement**: Every agent MUST have a unique, verifiable identity.
+
+*Core requirements: I-1 (Unique Identifier), I-2 (Credential Binding), I-3 (Ownership Chain), I-4 (Purpose Declaration), I-5 (Capability Manifest). See [CONFORMANCE.md](CONFORMANCE.md) for formal definitions and maturity level applicability.*
 
 #### 4.1.1 Identity Creation
 
@@ -94,6 +105,8 @@ class IdentityManager(Protocol):
 
 **Requirement**: Agent behavior MUST be continuously monitored for anomalies.
 
+*Core requirements: B-1 (Structured Logging), B-2 (Action Attribution), B-3 (Behavioral Baseline), B-4 (Anomaly Detection), B-5 (Explainability). See [CONFORMANCE.md](CONFORMANCE.md) for formal definitions and maturity level applicability.*
+
 #### 4.2.1 Baseline Establishment
 
 Implementations MUST:
@@ -123,6 +136,8 @@ Implementations SHOULD:
 
 **Requirement**: All agent inputs and outputs MUST be validated.
 
+*Core requirements: D-1 (Schema Validation), D-2 (Injection Prevention), D-3 (PII/PHI Protection), D-4 (Output Validation), D-5 (Data Lineage). See [CONFORMANCE.md](CONFORMANCE.md) for formal definitions and maturity level applicability.*
+
 #### 4.3.1 Input Validation
 
 Implementations MUST:
@@ -151,6 +166,8 @@ Implementations SHOULD:
 
 **Requirement**: Agent access MUST be limited by least-privilege policies.
 
+*Core requirements: S-1 (Resource Allowlist), S-2 (Action Boundaries), S-3 (Rate Limiting), S-4 (Transaction Limits), S-5 (Blast Radius Containment). See [CONFORMANCE.md](CONFORMANCE.md) for formal definitions and maturity level applicability.*
+
 #### 4.4.1 Access Control
 
 Implementations MUST:
@@ -173,6 +190,8 @@ Implementations SHOULD:
 ### 4.5 Incident Response
 
 **Requirement**: Systems MUST support rapid agent containment and recovery.
+
+*Core requirements: R-1 (Circuit Breaker), R-2 (Kill Switch), R-3 (Session Revocation), R-4 (State Rollback), R-5 (Graceful Degradation). See [CONFORMANCE.md](CONFORMANCE.md) for formal definitions and maturity level applicability.*
 
 #### 4.5.1 Kill Switch
 
