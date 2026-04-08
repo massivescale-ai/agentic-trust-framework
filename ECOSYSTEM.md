@@ -24,7 +24,7 @@ Seven-package MIT-licensed open-source project (Python, TypeScript, Rust, Go, .N
 ## Berlin AI Labs — VERA
 
 **Organization**: Berlin AI Labs | **Relationship**: ATF Reference Implementation
-**Repository**: [berlinailabs/vera-reference-implementation](https://github.com/berlinailabs/vera-reference-implementation)
+**Repository**: [yogami/vera-reference-implementation](https://github.com/yogami/vera-reference-implementation)
 
 A cryptographic enforcement architecture integrating the Agentic Trust Framework. The repository maps 12 independently deployable, MIT-licensed microservices against all 25 ATF core requirements and 5 promotion gates. VERA utilizes an AWS Nitro Enclave (Rust) and SemaProof middleware to cryptographically sign agent intents and generate verifiable Certificate of Execution Records (CERs).
 
