@@ -20,3 +20,18 @@ Seven-package MIT-licensed open-source project (Python, TypeScript, Rust, Go, .N
 | Data Governance | Input/output validation, PII protection |
 | Segmentation | Policy enforcement, least-privilege boundaries |
 | Incident Response | Circuit breakers, kill switches, containment |
+
+## Berlin AI Labs — VERA
+
+**Organization**: Berlin AI Labs | **Relationship**: Enforcement architecture built on ATF principles
+**Repository**: [yogami/vera-reference-implementation](https://github.com/yogami/vera-reference-implementation)
+
+A cryptographic enforcement architecture integrating the Agentic Trust Framework. The repository maps 12 independently deployable, MIT-licensed microservices against all 25 ATF core requirements and 5 promotion gates.
+
+| ATF Element | Implementation Coverage |
+|---|---|
+| Identity | Decentralized agent trust scoring, DID:web credential verification |
+| Behavior | Immutable Ed25519 Proof of Execution (PoE) & blockchain anchoring |
+| Data Governance | Sub-20ms ONNX firewall with dynamic semantic boundary constraints |
+| Segmentation | Policy-as-code A2A segmentation and strict SLA enforcement |
+| Incident Response | Automated 41-vector adversarial containment and network kill switches |
